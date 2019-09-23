@@ -1,0 +1,50 @@
+QMainWindow {
+    background-color: #fff;
+}
+
+QLabel {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:12px;
+}
+
+QLabel#errorLabel,
+QLabel#errorLabelAngEul2Qua{
+    color:#f8786a;
+    font-weight:700;
+}
+
+QLabel#outputX,QLabel#outputY,QLabel#outputZ,QLabel#outputW,QLabel#outputAlpha,QLabel#outputBeta,QLabel#outputGamma {
+    border:1px solid black;
+    color:black;
+    background-color:#fff;
+    min-height:10px;
+    min-width:150px;
+    height:10px;
+    width:100px;
+
+}
+
+QLabel#quat2eul, QLabel#eul2quat {
+    font-size:12px;
+    font-weight:700;
+}
+
+QTabWidget::pane {
+ border:none;
+ background-color:#f6f6f8;
+}
+
+QTabBar::tab {
+    background: #fff;
+    padding: 10px;
+ }
+
+QTabBar::tab:selected {
+    background: #f6f6f8;
+ }
+
+QLineEdit {
+    background:#fff;
+}
+
+
